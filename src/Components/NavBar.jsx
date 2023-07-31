@@ -10,17 +10,17 @@ function NavBar() {
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary navBarContainer">
       <Container>
-        <Navbar.Brand href="#home">SenDo</Navbar.Brand>
+        <Navbar.Brand className="NavText" href="#home">SenDo</Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link href="#features">Menu</Nav.Link>
-            <Nav.Link href="#pricing">Services</Nav.Link>
+            <Nav.Link className="NavText" href="#features">Menu</Nav.Link>
+            <Nav.Link className="NavText" href="#pricing">Services</Nav.Link>
            
           </Nav>
           <Nav>
-            <Nav.Link href="#deets">Why Us?</Nav.Link>
-            <Nav.Link eventKey={2} href="#memes">
+            <Nav.Link className="NavText" href="#deets">Why Us?</Nav.Link>
+            <Nav.Link  className="NavText" eventKey={2} href="#memes">
               Contact Us
             </Nav.Link>
           </Nav>
