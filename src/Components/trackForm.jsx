@@ -25,10 +25,15 @@ event.preventDefault();
 
 const handleClick = () => {
 
+  const randomNumber = Math.floor(Math.random() * 3) + 1;
+  const trackingNumber = inputValue;
 
+  if(trackingNumber.length === 10){
+  return alert(`Your documents are on their way! ETA= ${randomNumber} days. Thank you for using SenDo Services.`)
+  } else {
+return alert("Please, enter a tracking number of ten (10) digits.")
+  }
 }
-
-
 
 return(
 
