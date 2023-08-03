@@ -4,7 +4,7 @@ import '../Styles/getAnEstimate.css'
 
 
 
-const EstimateForm = () => {
+const GetAndEstimateBotton = () => {
  
     const handleClickEstimated= () => {
       const estimateWindow = window.open('', 'Get an Estimate', 'width=725,height=680');
@@ -34,4 +34,4 @@ const EstimateForm = () => {
     );
   };
   
-  export default EstimateForm;
+  export default GetAndEstimateBotton;

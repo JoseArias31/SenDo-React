@@ -2,7 +2,7 @@ import { useState } from 'react'
 import NavBar from './Components/NavBar.jsx'
 import './App.css'
 import TrackForm from './Components/trackForm.jsx'
-import GetAndEstimateBotton from './Components/getAnEstimateButton.jsx'
+import GetAndEstimateBotton from './Components/estimatePage.jsx'
 import PrintAndSend from './Components/printAndSendButton.jsx'
 import SendoLogoWhite from './imgs/Sendo Logo white.png'
 
