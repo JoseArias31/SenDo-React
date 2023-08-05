@@ -1,4 +1,4 @@
-import React from "react";
+
 import calculator from '../imgs/calculator.png'
 import '../Styles/getAnEstimate.css'
 
