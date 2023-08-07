@@ -9,7 +9,7 @@ import GetAndEstimateBotton from "./estimatePage";
 
 
 
-export const Prueba = () => {
+export const Home = () => {
   return (
     <div className="pageOne">
       {/* Navigation bar */}

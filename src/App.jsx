@@ -6,7 +6,7 @@ import './App.css';
 
 
 import { Routes, Route } from "react-router-dom"
-import { Prueba } from './Components/printAndSendButton.jsx'
+import { Home } from './Components/home.jsx'
 import PrintAndSendForm from './Components/printAndSendForm.jsx'
  
 function App() {
@@ -16,7 +16,7 @@ function App() {
     
     <>
     <Routes>
-        <Route path="/" element={ <Prueba/> } />
+        <Route path="/" element={ <Home/> } />
         <Route path="/SecondPage" element={ <PrintAndSendForm /> } />
         {/* <Route path="/*" element={<NotFoundPage />} /> */}
         
