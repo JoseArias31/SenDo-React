@@ -1,0 +1,52 @@
+.PrintAndSendFormContainer {
+
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100vh;
+}
+
+#formSection {
+    border: black 1px solid;
+    color: white;
+    background: black;
+    width: 579px;
+    height: 76vh;
+    margin: auto;
+    padding: 25px;
+    font-size: 20px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+   
+   
+}
+
+.formSpace {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+       
+}
+
+.formSubmit {
+    border: 2px white solid;
+    background: black;
+    color: white;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    align-self: center;
+    margin-top: 25px;
+}
+
+.formSubmit:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+ }

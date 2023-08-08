@@ -13,7 +13,7 @@ export const Home = () => {
   return (
     <div className="pageOne">
       {/* Navigation bar */}
-      <NavBar />
+      <NavBar isHomePage={true} />
       <div className="logoContainer">
         <img id="logo" src={SendoLogoWhite} alt="Sendo Logo" />
       </div>
