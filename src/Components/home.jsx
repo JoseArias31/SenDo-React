@@ -6,11 +6,12 @@ import '../Styles/printAndSend.css'
 import '../Styles/getAnEstimate.css'
 import SendoLogoWhite from "../imgs/Sendo Logo white.png";
 import GetAndEstimateBotton from "./estimatePage";
-
+import Services from "./Services.jsx";
 
 
 export const Home = () => {
   return (
+    <>
     <div className="pageOne">
       {/* Navigation bar */}
       <NavBar isHomePage={true} />
@@ -43,6 +44,8 @@ export const Home = () => {
           </Link>
         </div>
       </div>
-    </div>
+    </div>  
+<Services />
+    </>
   );
 };

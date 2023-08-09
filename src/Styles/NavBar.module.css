@@ -10,3 +10,10 @@
     font-size: 25px;
 }
 
+.NavText:hover {
+    color: black !important;
+}
+
+.NavText2:hover {
+    color: white !important;
+}

@@ -1,0 +1,44 @@
+.pageTwo {
+
+    height: 100vh;
+    width: 100vw;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+    background: url('../imgs/NoteBookPencil.jpg');   
+    background-position: top center;
+    overflow-x: hidden;
+    background-size: cover;
+  }
+
+  #services-list {
+    padding: 0;
+    margin: 0;
+    font-size: 12px;
+ 
+    font-weight: 500;
+ }
+
+ #serviceTitle {
+    font-size: 60px;
+    text-align: -webkit-center;
+ }
+ 
+
+ .listOfContent1 {
+    list-style-type: none;
+ }
+
+ #transform {
+    transform: rotate(350deg);
+    margin-left: 450px;
+    padding-top: 100px;
+    
+ }
+
+ #services {
+
+padding: 0;
+margin: 0;
+
+ }
