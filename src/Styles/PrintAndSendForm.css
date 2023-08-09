@@ -10,16 +10,16 @@ height: 100vh;
     border: black 1px solid;
     color: white;
     background: black;
-    width: 579px;
-    height: 76vh;
+    width: 879px;
+    height: 56vh;
     margin: auto;
     padding: 25px;
-    font-size: 20px;
+    font-size: 16px;
     border-radius: 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-around;
-   
+
    
 }
 
@@ -27,7 +27,7 @@ height: 100vh;
     width: 100%;
     height: 25px;
     text-align: center;
-    font-size: 16px;
+    font-size: 15px;
     font-weight: bold;
        
 }
@@ -42,11 +42,63 @@ height: 100vh;
     border-radius: 40px;
     cursor: pointer;
     align-self: center;
-    margin-top: 25px;
+    
 }
 
 .formSubmit:hover {
     background: white;
     color: black;
     font-weight: bold;
+ }
+
+ .footerPrintAndSendForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+ }
+
+ .copyRight {
+    display: flex;
+    align-items: end;
+ }
+
+ #copyRight {
+    margin: 0;
+ }
+
+ .phoneNumber {
+
+    display: flex;
+    align-items: end;
+
+ }
+
+ .FormRows {
+
+    display: flex;
+    flex-direction: row;
+ }
+
+ .inputLabelContainer{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+
+ }
+
+ .formLabels {
+
+    width: 250px;
+
+ } 
+
+ .titleFormContainer {
+
+width: 100%;
+justify-content: center;
+display: flex;
+
  }
