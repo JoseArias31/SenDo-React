@@ -4,12 +4,17 @@ import TrackForm from "./trackForm";
 import add from "../imgs/add.png/";
 import '../Styles/printAndSend.css'
 import '../Styles/getAnEstimate.css'
+import '../Styles/PrintAndSendForm.css'
 import SendoLogoWhite from "../imgs/Sendo Logo white.png";
 import GetAndEstimateBotton from "./estimatePage";
-import Services from "./Services.jsx";
+import Igb from '../imgs/Instagram black.png'
+import Wab from '../imgs/whatsapp icon black.png'
+import Emb from '../imgs/Instagram black.png'
 
 
 export const Home = () => {
+
+  
   return (
     <>
     <div className="pageOne">
@@ -44,8 +49,22 @@ export const Home = () => {
           </Link>
         </div>
       </div>
+      <div className="footerPrintAndSendForm">
+ 
+ <div className="socialIcons">
+    <a href="https://instagram.com/gojosearias?igshid=YmMyMTA2M2Y=" rel="noopener"><img src={Igb} alt="Instagram" className="social2" width="55" /></a>
+    <a href="https://api.whatsapp.com/send?phone=16474252986&text=Welcome to SenDo, talk to us for a Quote!" rel="noopener"><img src={Wab} alt="WhatsApp" className="social2" width="55" /></a>
+    <a href="mailto:gojosearias@gmail.com" rel="noopener"><img src={Emb} alt="Email" className="social2" width="55" /></a>
+ </div>
+<div className="copyRight">
+<p id="copyRightHome">SenDo© - 2023 - All Rights Reserved</p>
+</div>
+<div className="phoneNumber">
+    <p id="phoneNumberHome">647-425-2986</p>
+</div>
+    </div>
     </div>  
-<Services />
+
     </>
   );
 };

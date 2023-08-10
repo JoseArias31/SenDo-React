@@ -4,16 +4,21 @@ import Nav from 'react-bootstrap/Nav';
 import Navbar from 'react-bootstrap/Navbar';
 import styles from '../Styles/NavBar.module.css';
 import PropTypes from 'prop-types';
+import { Link } from 'react-router-dom';
+
 function NavBar({ isHomePage }) {
+
+ 
+
   return (
     <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary navBarContainer">
       <Container>
-        <Navbar.Brand className={isHomePage ? styles.NavText : styles.NavText2} href="#home">SenDo</Navbar.Brand>
+        <Link className={isHomePage ? styles.NavText : styles.NavText2} to="/">SenDo</Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
-            <Nav.Link className={isHomePage ? styles.NavText : styles.NavText2} href="#features">Menu</Nav.Link>
-            <Nav.Link className={isHomePage ? styles.NavText : styles.NavText2} href="#pricing">Services</Nav.Link>
+            <Link className={isHomePage ? styles.NavText : styles.NavText2} to="/">Menu</Link>
+            <Link className={isHomePage ? styles.NavText : styles.NavText2} to="/Services">Services</Link >
            
           </Nav>
           <Nav>

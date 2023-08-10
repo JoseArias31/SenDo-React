@@ -1,12 +1,19 @@
 import '../Styles/Services.css'
-
-
+import NavBar from './NavBar';
+import Igb from '../imgs/Instagram black.png'
+import Wab from '../imgs/whatsapp icon black.png'
+import Emb from '../imgs/Instagram black.png'
+import SendoLogoBlack from "../imgs/Sendo Logo black.png";
 function Services() {
 
+  
 return(
 
 <div className="pageTwo">
-
+<NavBar isHomePage={false} />
+<div className="logoContainer">
+        <img id="logo" src={SendoLogoBlack} alt="Sendo Logo" />
+      </div>
 <section id="services">
 <h1 id="serviceTitle">Services</h1>
 <div id="transform">
@@ -49,7 +56,20 @@ return(
     
 </section>
 
-
+<div className="footerServices">
+ 
+ <div className="socialIcons">
+    <a href="https://instagram.com/gojosearias?igshid=YmMyMTA2M2Y=" rel="noopener"><img src={Igb} alt="Instagram" className="social" width="55" /></a>
+    <a href="https://api.whatsapp.com/send?phone=16474252986&text=Welcome to SenDo, talk to us for a Quote!" rel="noopener"><img src={Wab} alt="WhatsApp" className="social" width="55" /></a>
+    <a href="mailto:gojosearias@gmail.com" rel="noopener"><img src={Emb} alt="Email" className="social" width="55" /></a>
+ </div>
+<div className="copyRight">
+<p id="copyRight">SenDo© - 2023 - All Rights Reserved</p>
+</div>
+<div className="phoneNumber">
+    <p id="phoneNumber">647-425-2986</p>
+</div>
+    </div>
 </div>
 
 )
@@ -58,3 +78,4 @@ return(
 }
 
 export default Services;
+

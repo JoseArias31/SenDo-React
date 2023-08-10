@@ -8,9 +8,10 @@ import './App.css';
 import { Routes, Route } from "react-router-dom"
 import { Home } from './Components/home.jsx'
 import PrintAndSendForm from './Components/printAndSendForm.jsx'
+import Services from './Components/Services';
  
 function App() {
- 
+
 
   return (
     
@@ -18,6 +19,7 @@ function App() {
     <Routes>
         <Route path="/" element={ <Home/> } />
         <Route path="/SecondPage" element={ <PrintAndSendForm /> } />
+        <Route path="/Services" element={ <Services /> } />
         {/* <Route path="/*" element={<NotFoundPage />} /> */}
         
     </Routes>

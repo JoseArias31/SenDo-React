@@ -57,23 +57,46 @@ height: 100vh;
     justify-content: space-between;
     margin-left: 25px;
     margin-right: 25px;
+    
  }
 
  .copyRight {
     display: flex;
     align-items: end;
+    font-size: 12px;
+    font-weight: bold;
  }
+
+ #copyRightHome {
+   display: flex;
+   align-items: end;
+   font-size: 12px;
+   font-weight: bold;
+   color: white;
+}
 
  #copyRight {
     margin: 0;
+    display: flex;
+    align-items: end;
  }
 
  .phoneNumber {
 
     display: flex;
     align-items: end;
-
+    font-size: 20px;
+    font-weight: bold;
  }
+
+ #phoneNumberHome {
+
+   display: flex;
+   align-items: end;
+   font-size: 20px;
+   font-weight: bold;
+   color: white;
+}
 
  .FormRows {
 
@@ -86,7 +109,7 @@ height: 100vh;
     display: flex;
     flex-direction: row;
     width: 100%;
-
+    margin-left: 10px;
  }
 
  .formLabels {
@@ -102,3 +125,11 @@ justify-content: center;
 display: flex;
 
  }
+
+ .social:hover {
+   filter: invert(50%); 
+}
+
+.social2:hover {
+   filter: invert(100%); 
+}
