@@ -22,10 +22,10 @@ function NavBar({ isHomePage }) {
            
           </Nav>
           <Nav>
-            <Nav.Link className={isHomePage ? styles.NavText : styles.NavText2} href="#deets">Why Us?</Nav.Link>
-            <Nav.Link  className={isHomePage ? styles.NavText : styles.NavText2} eventKey={2} href="#memes">
+            <Link className={isHomePage ? styles.NavText : styles.NavText2} to="/WhyUs">Why Us?</Link>
+            <Link  className={isHomePage ? styles.NavText : styles.NavText2} eventKey={2} to="/">
               Contact Us
-            </Nav.Link>
+            </Link>
           </Nav>
         </Navbar.Collapse>
       </Container>
