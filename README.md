@@ -1,4 +1,3 @@
-Here is the corrected and improved version of your writing:
 
 **Assignment #2: SenDo Website Analysis**
 
