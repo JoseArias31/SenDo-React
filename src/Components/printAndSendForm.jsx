@@ -10,6 +10,7 @@ import { useState } from "react";
 
 function PrintAndSendForm() {
   const [shipperName, setShipperName] = useState('');
+  const [shipperPhone, setShipperPhone] = useState('');
   const [recipientPhone, setRecipientPhone] = useState('');
   const [recipientName, setRecipientName] = useState('');
   const [recipientAddress, setRecipientAddress] = useState('');
@@ -41,9 +42,11 @@ function PrintAndSendForm() {
 
   const handleClickForm = () => {
 
- 
-    return alert(`Thank you for using our services! In about 24 hours you will get a full quotation.`)
-  }
+    if(shipperName === '' || shipperPhone === '' || recipientPhone === '' || recipientName === '' || recipientAddress === '') {
+    return alert (`Please, fill out all the blank filds.`)
+    } else {
+ return alert(`Thank you for using our services! In about 24 hours you will get a full quotation.`);
+  }}  
 
   return (  
     <div className="PrintAndSendFormContainer">
@@ -86,8 +89,8 @@ function PrintAndSendForm() {
           <div className="inputLabelContainer">
             <label className="formLabels" htmlFor="recipient-phone">Phone Number:</label>
             <input
-              value={recipientPhone}
-              onChange={(e) => handleInputChangeNumbers(e, setRecipientPhone)}
+              value={shipperPhone}
+              onChange={(e) => handleInputChangeNumbers(e, setShipperPhone)}
               className="formSpace"
               type="tel"
               id="recipient-phone"
