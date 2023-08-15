@@ -11,9 +11,9 @@ function NavBar({ isHomePage }) {
  
 
   return (
-    <Navbar collapseOnSelect expand="lg" className="bg-body-tertiary navBarContainer">
+    <Navbar  collapseOnSelect expand="lg" className="bg-body-tertiary navBarContainer">
       <Container>
-        <Link className={isHomePage ? styles.NavText : styles.NavText2} to="/">SenDo</Link>
+        <Link style={{ pointerEvents: 'none'}} className={isHomePage ? styles.NavText : styles.NavText2} to="/">SenDo</Link>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
         <Navbar.Collapse id="responsive-navbar-nav">
           <Nav className="me-auto">
@@ -23,8 +23,8 @@ function NavBar({ isHomePage }) {
           </Nav>
           <Nav>
             <Link className={isHomePage ? styles.NavText : styles.NavText2} to="/WhyUs">Why Us?</Link>
-            <Link  className={isHomePage ? styles.NavText : styles.NavText2} eventKey={2} to="/">
-              Contact Us
+            <Link  className={isHomePage ? styles.NavText : styles.NavText2} eventKey={2} to="/Login">
+              Login
             </Link>
           </Nav>
         </Navbar.Collapse>

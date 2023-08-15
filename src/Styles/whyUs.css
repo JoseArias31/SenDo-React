@@ -9,6 +9,9 @@
     background-position: bottom center;
     overflow-x: hidden;
     background-attachment:scroll;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
    
  }
 
@@ -16,7 +19,7 @@
     font-size: 60px;
     color: white;
     position:absolute ;
-    
+    top: 60px;
     margin-left: 50px;
     
  }

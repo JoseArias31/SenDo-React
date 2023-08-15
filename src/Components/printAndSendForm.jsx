@@ -71,6 +71,7 @@ function PrintAndSendForm() {
               name="shipper-name"
               required
             />
+           
           </div>
           <div className="inputLabelContainer">
             <label className="formLabels" htmlFor="shipper-email">Email Address:</label>

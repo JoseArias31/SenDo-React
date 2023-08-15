@@ -60,7 +60,7 @@ export const Home = () => {
 <p id="copyRightHome">SenDo© - 2023 - All Rights Reserved</p>
 </div>
 <div className="phoneNumber">
-    <p id="phoneNumberHome">647-425-2986</p>
+<a className='number2' href="tel:+16474252986"><p id="phoneNumber2">647-425-2986</p></a>
 </div>
     </div>
     </div>  

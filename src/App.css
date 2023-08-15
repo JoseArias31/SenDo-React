@@ -17,6 +17,9 @@
   background-position: top center;
   overflow-x: hidden;
   background-size: cover;
+  justify-content: space-between;
+    display: flex;
+    flex-direction: column;
 
 }
 
@@ -66,3 +69,6 @@ padding-right: 10%;
 
 }
 
+#copyRightHome{
+  margin: 0;
+}
