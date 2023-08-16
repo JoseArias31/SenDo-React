@@ -46,23 +46,7 @@ flex-direction: column;
 
 }
 
-#findMe {
-    border: 2px white solid;
-    background: black;
-    color: white;
-    width: 250px;
-    height: 60px;
-    font-size: 25px;
-    border-radius: 40px;
-    cursor: pointer;
-      
-}
 
-#findMe:hover {
-    background: white;
-    color: black;
-    font-weight: bold;
- }
 
  #login {
     cursor: pointer;

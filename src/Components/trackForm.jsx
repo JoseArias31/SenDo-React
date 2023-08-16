@@ -48,8 +48,8 @@ return(
 
 <form id="firstBottoms" onSubmit={handleSubmit}>
         <label htmlFor="nombre"></label>
-        <input pattern="[0-9]*" value={inputValue} onChange={HandleInputChange} type="text" id="trackBar" name="nombre" placeholder="Enter your order number 0000000000" required />
-        <button onClick={handleReset}>Clear</button>
+        <input pattern="[0-9]*" value={inputValue} onChange={(event)=>HandleInputChange(event, setInputValue)} type="text" id="trackBar" name="nombre" placeholder="Enter your order number 0000000000" required />
+        <button className="clearButton" onClick={handleReset}>Clear</button>
       <button onClick={handleClick} type="submit" id="trackButton"><img id="rightArrow" alt="Right arrow logo" src={RightArrow} /></button>
      
       </form>

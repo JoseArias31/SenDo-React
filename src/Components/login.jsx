@@ -4,7 +4,37 @@ import SendoLogoBlack from "../imgs/Sendo Logo black.png";
 import Igb from '../imgs/Instagram black.png'
 import Wab from '../imgs/whatsapp icon black.png'
 import Emb from '../imgs/Instagram black.png'
+import TrackForm from './trackForm.jsx';
+import { useState } from 'react';
+import { randomName } from './clients.jsx'
 function Login() {
+
+const [loginUser, SetLoginUser ] = useState("");
+const [password, SetPassword ] = useState("");
+const HandleInputChangeUser = (event) => {
+    const value = event.target.value;
+    SetLoginUser(value);
+  };
+
+  const HandleInputChangePassword = (event) => {
+    const value = event.target.value;
+    SetPassword(value);
+  };
+
+
+  const handleSubmit = (event) => {
+    event.preventDefault(); 
+    if (loginUser === '' || password === '') {
+      alert("Incorrect username or password. Please try again.");
+    } else {
+      alert(`Hello ${randomName}! You've successfully logged in.`);
+      SetLoginUser("");
+      SetPassword("");
+      window.location.reload();
+    }
+  };
+
+ 
 
     return (
     <div className='loginContainer'>
@@ -13,12 +43,12 @@ function Login() {
         <img id="logo" src={SendoLogoBlack} alt="Sendo Logo" />
       </div>
     <div id="loginContainer">
-        <form id="loginAccess" style={{ display: 'flex' }}>
+        <form onSubmit={handleSubmit} id="loginAccess" style={{ display: 'flex' }}>
             <div id="firstPart">
             <h1>Sign in</h1>
 
-                <input type="email" id="emailLogin" name="emailLogin" placeholder="Email*" required /><br />
-                <input type="password" id="password" name="passwordLogin" placeholder="password*" required />
+                <input value={loginUser} onChange={(event) => HandleInputChangeUser(event, SetLoginUser)} type="email" id="emailLogin" name="emailLogin" placeholder="Email*"  /><br />
+                <input value={password} onChange={(event) => HandleInputChangePassword(event, SetPassword)} type="password" id="password" name="passwordLogin" placeholder="password*"  />
                 <h2>Forgot Password?</h2>
                 <li>
                     <input type="checkbox" id="rememberMe" name="rememberMe" value="rememberMe" />
@@ -28,14 +58,16 @@ function Login() {
                 <h3 style={{ color: 'black', fontSize: '20px', textAlign: 'center' }}>Do not you have an account?</h3>
             <h3 style={{ color: 'black', textDecoration: 'underline', fontSize: '20px', textAlign: 'center' }}>Create one now!</h3>
             </div>
+            
             <div id="secondPart">
                 <h1><b>Looking for your order?</b></h1>
                 <p>
-                    See your order even if you are not a registered user. Enter the order number and your last name.
+                    See your order even if you are not a registered user. Enter your tracking number.
                 </p>
-                <button type="submit" id="findMe"><span><b>Find your order</b></span></button>
+                
+                <TrackForm />
             </div>
-        </form>
+            </form>
     </div>
     <div className="footerServices">
  
