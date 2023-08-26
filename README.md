@@ -55,6 +55,11 @@ className={isHomePage ? styles.NavText : styles.NavText2}
 
 For the handleClickEstimated button, I fixed it to make it into a React code instead of a string code with the open.window command. This is pretty interesting because handling a form in an external window is different. This part is still in progress, but at least it is working the button with the code transition.
 
+Finally, I got a set up to test my app, so I did with the Vitest option by wrapping each component with a RouterBrowser tag, only if I use Router to link the app.
+
+I've got a Review from a Classmate regarding using an object to keep the client info, inside, instead of putting them independently. 
+
+
 In this pursuit, I've endeavored to create an intricate yet organized ecosystem, optimizing both functionality and aesthetics in the SenDo website.
 
 
