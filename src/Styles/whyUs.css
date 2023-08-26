@@ -1,0 +1,61 @@
+
+#why-us {
+    height: 100vh;
+    width: 100vw;
+    margin: 0;
+    padding: 0;
+    background: url('../imgs/Cafe Background.jpg');   
+    background-size: cover;
+    background-position: bottom center;
+    overflow-x: hidden;
+    background-attachment:scroll;
+    justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+   
+ }
+
+ #whyUsText {
+    font-size: 60px;
+    color: white;
+    position:absolute ;
+    top: 60px;
+    margin-left: 50px;
+    
+ }
+
+ #text1 {
+    width: 32%;
+    margin-left: 63%;
+    padding-top: 2%;
+    font-size: 16px;
+ }
+
+ .paragraph {
+    color: white;
+    font-size: 25px;
+    text-align: center;
+ }
+
+ #text2 {
+    width: 20%;
+    margin-left: 7%;
+    font-size: 16px;
+ }
+
+ #text3 {
+    width: 20%;
+    margin-left: 71%;
+    padding-top: 0;
+    font-size: 16px;
+ }
+
+ .footerWhyUs{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+    height: 80px;
+    
+ }
