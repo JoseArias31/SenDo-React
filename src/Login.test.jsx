@@ -20,3 +20,20 @@ test('HandleInputChangePassword updates state correctly', () => {
 
   expect(passwordInput.value).toBe('newPassword');
 });
+
+
+
+test('Show the text correctly.', () => {
+  const { getByText } = render(
+  
+    <BrowserRouter>
+    <Login />
+  </BrowserRouter>
+  
+  )// Crea una función simulada para onClick
+   const text = getByText('Sign in', {selector: 'h1'}); // Obtén el botón por su rol
+    expect(text).toBeInTheDocument(); // Verifica si la función onClick se llamó
+});
+
+
+
