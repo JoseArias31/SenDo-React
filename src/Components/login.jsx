@@ -34,6 +34,10 @@ const HandleInputChangeUser = (event) => {
     }
   };
 
+  const hnadleCreateUser =() => {
+
+    alert("Thank you for creating an account with SenDo!")
+  }
  
 
     return (
@@ -50,13 +54,17 @@ const HandleInputChangeUser = (event) => {
                 <input value={loginUser} onChange={(event) => HandleInputChangeUser(event, SetLoginUser)} type="email" id="emailLogin" name="emailLogin" placeholder="Email*"  /><br />
                 <input value={password} onChange={(event) => HandleInputChangePassword(event, SetPassword)} type="password" id="password" name="passwordLogin" placeholder="password*"  />
                 <h2>Forgot Password?</h2>
-                <li>
+                <li className='RememberMeContainer'>
                     <input type="checkbox" id="rememberMe" name="rememberMe" value="rememberMe" />
                     <label>Remember me</label>
                 </li>
                 <button type="submit" id="login"><span>Sign in</span></button>
                 <h3 style={{ color: 'black', fontSize: '20px', textAlign: 'center' }}>Do not you have an account?</h3>
-            <h3 style={{ color: 'black', textDecoration: 'underline', fontSize: '20px', textAlign: 'center' }}>Create one now!</h3>
+           
+           <div className='createAnAccountButtonContainer'>
+            <button id='createAnAccountButton' onClick={hnadleCreateUser} style={{ color: 'black', textDecoration: 'underline', fontSize: '20px', textAlign: 'center' }}>Create one now!</button>
+            </div>
+           
             </div>
             
             <div id="secondPart">

@@ -79,3 +79,33 @@ flex-direction: column;
     text-decoration: none;
     color: black;
  }
+
+
+ #createAnAccountButton {
+
+width: 200px;
+border-radius: 25px;
+border-style: hidden;
+background: white;
+ }
+
+.RememberMeContainer{
+ list-style-type: none;
+
+}
+
+ .createAnAccountButtonContainer {
+
+width: 100%;
+text-align: -webkit-center;
+ }
+
+ .createAnAccountButtonContainer:hover {
+
+    color: white;
+ }
+
+ #rememberMe {
+
+    margin-right: 6px;
+ }
