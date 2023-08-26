@@ -53,7 +53,7 @@ By judiciously incorporating conditional rendering with `isHomePage`, I ensure t
 className={isHomePage ? styles.NavText : styles.NavText2}
 ```
 
-For the handleClickEstimated button, I fixed it to make it a React code instead of a string code with the open.window command. This is pretty interesting because handling a form in an external window is different. This part is still in progress, but at least it is working the button with the code transition.
+For the handleClickEstimated button, I fixed it to make it into a React code instead of a string code with the open.window command. This is pretty interesting because handling a form in an external window is different. This part is still in progress, but at least it is working the button with the code transition.
 
 In this pursuit, I've endeavored to create an intricate yet organized ecosystem, optimizing both functionality and aesthetics in the SenDo website.
 
