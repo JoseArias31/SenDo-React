@@ -53,11 +53,11 @@ export const Home = () => {
  
  <div className="socialIcons">
     <a href="https://instagram.com/gojosearias?igshid=YmMyMTA2M2Y=" rel="noopener"><img src={Igb} alt="Instagram" className="social2" width="55" /></a>
-    <a href="https://api.whatsapp.com/send?phone=16474252986&text=Welcome to SenDo, talk to us for a Quote!" rel="noopener"><img src={Wab} alt="WhatsApp" className="social2" width="55" /></a>
+    <a href="https://api.whatsapp.com/send?phone=16474252986&text=Welcome to SenDo, talk to us for a Quote!" rel="noopener" target="blank"><img src={Wab} alt="WhatsApp" className="social2" width="55" /></a>
     <a href="mailto:gojosearias@gmail.com" rel="noopener"><img src={Emb} alt="Email" className="social2" width="55" /></a>
  </div>
 <div className="copyRight">
-<p id="copyRightHome">SenDo© - 2023 - All Rights Reserved</p>
+<p id="copyRightHome">SenDo© - 2024 - All Rights Reserved</p>
 </div>
 <div className="phoneNumber">
 <a className='number2' href="tel:+16474252986"><p id="phoneNumber2">647-425-2986</p></a>

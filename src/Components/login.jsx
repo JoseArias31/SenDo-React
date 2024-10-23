@@ -85,7 +85,7 @@ const HandleInputChangeUser = (event) => {
     <a href="mailto:gojosearias@gmail.com" rel="noopener"><img src={Emb} alt="Email" className="social" width="55" /></a>
  </div>
 <div className="copyRight">
-<p id="copyRight">SenDo© - 2023 - All Rights Reserved</p>
+<p id="copyRight">SenDo© - 2024 - All Rights Reserved</p>
 </div>
 <div className="phoneNumber">
     <a className='number' href="tel:+16474252986"><p id="phoneNumber">647-425-2986</p></a>
