@@ -1,6 +1,6 @@
 import '../Styles/login.css'
 import NavBar from './NavBar';
-import SendoLogoBlack from "../imgs/Sendo Logo black.png";
+import SendoLogoBlack from "/SenDoLogoblack.png";
 import Igb from '/InstagramBlack.png'
 import Wab from '/whatsapp icon black.png'
 import Emb from '/InstagramBlack.png'
