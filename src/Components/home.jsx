@@ -5,7 +5,7 @@ import add from "../imgs/add.png/";
 import '../Styles/printAndSend.css'
 import '../Styles/getAnEstimate.css'
 import '../Styles/PrintAndSendForm.css'
-import SendoLogoWhite from "../imgs/Sendo Logo white.png";
+//import SendoLogoWhite from "../imgs/Sendo Logo white.png";
 import GetAndEstimateBotton from "./estimatePage";
 import Igb from '../imgs/Instagram black.png'
 import Wab from '../imgs/whatsapp icon black.png'
