@@ -1,6 +1,6 @@
 import '../Styles/whyUs.css'
 import NavBar from './NavBar';
-import SendoLogoWhite from "../imgs/Sendo Logo white.png";
+import SendoLogoWhite from "./Sendo Logo white.png";
 import Igb from '../imgs/Instagram black.png'
 import Wab from '../imgs/whatsapp icon black.png'
 import Emb from '../imgs/Instagram black.png'
