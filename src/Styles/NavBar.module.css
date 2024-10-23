@@ -1,0 +1,23 @@
+.NavText{
+    
+    color: white !important;
+    font-size: 25px;
+ margin-left: 20px;
+}
+
+.NavText2{
+    
+    color: black !important;
+    font-size: 25px;
+    margin-left: 20px;
+}
+
+.NavText:hover {
+    color: black !important;
+    font-weight: 400;
+}
+
+.NavText2:hover {
+    color: white !important;
+    filter: invert(60%); 
+}

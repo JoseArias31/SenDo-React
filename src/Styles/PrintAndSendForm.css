@@ -1,0 +1,159 @@
+.PrintAndSendFormContainer {
+
+margin: 0;
+padding: 0;
+width: 100%;
+height: 100vh;
+justify-content: space-between;
+    display: flex;
+    flex-direction: column;
+}
+
+#formSection {
+    border: black 1px solid;
+    color: white;
+    background: black;
+    width: 879px;
+    height: 56vh;
+    margin: auto;
+    padding: 25px;
+    font-size: 16px;
+    border-radius: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+
+   
+}
+
+.formSpace {
+    width: 100%;
+    height: 25px;
+    text-align: center;
+    font-size: 15px;
+    font-weight: bold;
+       
+}
+
+.formSubmit {
+    border: 2px white solid;
+    background: black;
+    color: white;
+    width: 250px;
+    height: 60px;
+    font-size: 25px;
+    border-radius: 40px;
+    cursor: pointer;
+    align-self: center;
+    
+}
+
+.formSubmit:hover {
+    background: white;
+    color: black;
+    font-weight: bold;
+ }
+
+ .footerPrintAndSendForm {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-left: 25px;
+    margin-right: 25px;
+   
+ }
+
+ .copyRight {
+    display: flex;
+    align-items: end;
+    font-size: 12px;
+    font-weight: bold;
+ }
+
+ #copyRightHome {
+   display: flex;
+   align-items: end;
+   font-size: 12px;
+   font-weight: bold;
+   color: white;
+}
+
+ #copyRight {
+    margin: 0;
+    display: flex;
+    align-items: end;
+ }
+
+ .phoneNumber {
+
+    display: flex;
+    align-items: end;
+    font-size: 20px;
+    font-weight: bold;
+ }
+
+ #phoneNumber2:hover {
+
+   cursor: pointer;
+  color: white;
+   text-decoration: underline;
+}
+
+ #phoneNumberHome {
+
+   display: flex;
+   align-items: end;
+   font-size: 20px;
+   font-weight: bold;
+   color: white; 
+   
+   text-decoration: none;
+    
+}
+
+.number2 {
+
+   color: white;
+}
+
+ .FormRows {
+
+    display: flex;
+    flex-direction: row;
+ }
+
+ .inputLabelContainer{
+
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin-left: 10px;
+ }
+
+ .formLabels {
+
+    width: 250px;
+
+ } 
+
+ .titleFormContainer {
+
+width: 100%;
+justify-content: center;
+display: flex;
+
+ }
+
+ .social:hover {
+   filter: invert(50%); 
+}
+
+.social2:hover {
+   filter: invert(50%); 
+}
+
+.social2 {
+
+   filter: invert(100%);
+
+}
