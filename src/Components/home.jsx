@@ -5,7 +5,7 @@ import add from "../imgs/add.png/";
 import '../Styles/printAndSend.css'
 import '../Styles/getAnEstimate.css'
 import '../Styles/PrintAndSendForm.css'
-//import SendoLogoWhite from "../imgs/Sendo Logo white.png";
+import SendoLogoWhite from "./Sendo Logo white.png";
 import GetAndEstimateBotton from "./estimatePage";
 import Igb from '../imgs/Instagram black.png'
 import Wab from '../imgs/whatsapp icon black.png'
@@ -21,7 +21,7 @@ export const Home = () => {
       {/* Navigation bar */}
       <NavBar isHomePage={true} />
       <div className="logoContainer">
-        {/* <img id="logo" src={SendoLogoWhite} alt="Sendo Logo" /> */}
+        <img id="logo" src={SendoLogoWhite} alt="Sendo Logo" />
       </div>
       <div className="firstTextContainer">
         <h1 className="h1FirstText">Print and Send Documents,</h1>
