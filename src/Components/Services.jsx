@@ -1,8 +1,8 @@
 import '../Styles/Services.css'
 import NavBar from './NavBar';
-import Igb from '../imgs/Instagram black.png'
-import Wab from '../imgs/whatsapp icon black.png'
-import Emb from '../imgs/Instagram black.png'
+import Igb from '../../public/Instagram black.png'
+import Wab from '../../public/whatsapp icon black.png'
+import Emb from '../../public/Instagram black.png'
 import SendoLogoBlack from "../imgs/Sendo Logo black.png";
 function Services() {
 
