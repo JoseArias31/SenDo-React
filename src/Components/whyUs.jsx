@@ -25,7 +25,7 @@ return (
   <div className="footerWhyUs">
  
  <div className="socialIcons">
-    <a href="https://instagram.com/gojosearias?igshid=YmMyMTA2M2Y=" rel="noopener"><img src={Igb} alt="Instagram" className="social2" width="55" /></a>
+    <a href="https://instagram.com/gojosearias?igshid=YmMyMTA2M2Y=" rel="noopener" target='blank'><img src={Igb} alt="Instagram" className="social2" width="55" /></a>
     <a href="https://api.whatsapp.com/send?phone=16474252986&text=Welcome to SenDo, talk to us for a Quote!" rel="noopener"><img src={Wab} alt="WhatsApp" className="social2" width="55" /></a>
     <a href="mailto:gojosearias@gmail.com" rel="noopener"><img src={Emb} alt="Email" className="social2" width="55" /></a>
  </div>
