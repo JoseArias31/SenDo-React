@@ -21,7 +21,7 @@ export const Home = () => {
       {/* Navigation bar */}
       <NavBar isHomePage={true} />
       <div className="logoContainer">
-        <img id="logo" src={SendoLogoWhite} alt="Sendo Logo" />
+        {/* <img id="logo" src={SendoLogoWhite} alt="Sendo Logo" /> */}
       </div>
       <div className="firstTextContainer">
         <h1 className="h1FirstText">Print and Send Documents,</h1>
