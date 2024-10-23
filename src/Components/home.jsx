@@ -7,9 +7,9 @@ import '../Styles/getAnEstimate.css'
 import '../Styles/PrintAndSendForm.css'
 import SendoLogoWhite from "/SenDo Logo white.png";  
 import GetAndEstimateBotton from "./estimatePage";
-import Igb from '/Instagram black.png'
+import Igb from '/InstagramBlack.png'
 import Wab from '/whatsapp icon black.png'
-import Emb from '/Instagram black.png'
+import Emb from '/InstagramBlack.png'
 
 
 export const Home = () => {

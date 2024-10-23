@@ -1,9 +1,9 @@
 import '../Styles/whyUs.css'
 import NavBar from './NavBar';
 import SendoLogoWhite from "/SenDo Logo white.png";  
-import Igb from '/Instagram black.png'
+import Igb from '/InstagramBlack.png'
 import Wab from '/whatsapp icon black.png'
-import Emb from '/Instagram black.png'
+import Emb from '/InstagramBlack.png'
 function WhyUs() {
 return (
 

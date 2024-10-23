@@ -2,9 +2,9 @@
 import NavBar from "./NavBar";
 import '../Styles/PrintAndSendForm.css'
 import SendoLogoBlack from "../imgs/Sendo Logo black.png";
-import Igb from '/Instagram black.png'
+import Igb from '/InstagramBlack.png'
 import Wab from '/whatsapp icon black.png'
-import Emb from '/Instagram black.png'
+import Emb from '/InstagramBlack.png'
 import { useState } from "react";
 
 
