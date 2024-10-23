@@ -5,11 +5,11 @@ import add from "../imgs/add.png/";
 import '../Styles/printAndSend.css'
 import '../Styles/getAnEstimate.css'
 import '../Styles/PrintAndSendForm.css'
-import SendoLogoWhite from "../../public/SenDo Logo white.png";  
+import SendoLogoWhite from "/SenDo Logo white.png";  
 import GetAndEstimateBotton from "./estimatePage";
-import Igb from '../../public/Instagram black.png'
-import Wab from '../../public/whatsapp icon black.png'
-import Emb from '../../public/Instagram black.png'
+import Igb from '/Instagram black.png'
+import Wab from '/whatsapp icon black.png'
+import Emb from '/Instagram black.png'
 
 
 export const Home = () => {

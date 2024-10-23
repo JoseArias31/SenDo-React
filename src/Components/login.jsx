@@ -1,9 +1,9 @@
 import '../Styles/login.css'
 import NavBar from './NavBar';
 import SendoLogoBlack from "../imgs/Sendo Logo black.png";
-import Igb from '../../public/Instagram black.png'
-import Wab from '../../public/whatsapp icon black.png'
-import Emb from '../../public/Instagram black.png'
+import Igb from '/Instagram black.png'
+import Wab from '/whatsapp icon black.png'
+import Emb from '/Instagram black.png'
 import TrackForm from './trackForm.jsx';
 import { useState } from 'react';
 import { randomName } from './clients.jsx'
