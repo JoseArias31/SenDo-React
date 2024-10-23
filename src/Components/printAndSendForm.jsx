@@ -1,7 +1,7 @@
 
 import NavBar from "./NavBar";
 import '../Styles/PrintAndSendForm.css'
-import SendoLogoBlack from "/SenDoLogoblack.png";
+import SendoLogoBlack from "/SenDoLogoblack.png";//changed
 import Igb from '/InstagramBlack.png'
 import Wab from '/whatsapp icon black.png'
 import Emb from '/InstagramBlack.png'
